@@ -28,3 +28,10 @@ fullElemPagebackbtn.forEach(function(back) {
 })
 }
 openFeaturs()
+
+
+const form = document.querySelector(".todo-container form");
+
+form.addEventListener("submit", function (e) {
+  e.preventDefault();
+});
